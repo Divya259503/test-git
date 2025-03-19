@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+   // declaring the variables radius and area
+   float radius, area;
+
+   // initializing the value of pi
+   float pi = 22.0 / 7.0;
+
+   // taking the user input
+   printf("Enter the radius of the circle: ");
+   scanf("%f", &radius); 
+
+   // calculating the area
+   area = pi * radius * radius;
+
+   // printing the area
+   printf("The area of the circle is %f", area);
+
+   return 0;
+}
